@@ -1,2 +1,4 @@
-scikit-learn
-matplotlib
+scikit-learn # for demo
+matplotlib # for demo
+dill # for demo
+imageio # for demo
