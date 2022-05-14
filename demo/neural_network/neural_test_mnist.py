@@ -3,7 +3,7 @@ import numpy
 from neural_common import parse_label_digits, scaled_input
 
 def test(n):
-    train_path = "../data/mnist/test.csv"
+    train_path = "../../data/mnist/test.csv"
     score_card = []
     with open(train_path, 'r') as f:
         train_data_list = f.readlines()
