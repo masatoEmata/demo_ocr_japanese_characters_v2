@@ -5,7 +5,7 @@ from neural_common import parse_label_digits, scaled_input
 
 
 def train(n: NeuralNetwork, epoch):
-    train_path = "../../data/mnist/train.csv"
+    train_path = "../data/mnist/train.csv"
 
     with open(train_path, 'r') as f:
         train_data_list = f.readlines()

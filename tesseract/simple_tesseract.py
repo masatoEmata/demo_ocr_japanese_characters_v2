@@ -6,7 +6,7 @@ import glob
 
 pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
-img_paths = glob.glob('../../data/zip/*.png')
+img_paths = glob.glob('../data/zip/*.png')
 for path in img_paths:
     img = cv2.imread(path)
     img_data = pytesseract.image_to_data(img, output_type=Output.DICT)
